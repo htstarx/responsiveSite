@@ -27,20 +27,30 @@
       </article>
 
       <div class="further-info">
-        <!-- 插入包含 srcsets 和 sizes 属性的图像 -->
+        <!-- 插入包含 srcsets 和 sizes 属性的图像
+        <img srcset="elva-fairy-320w.jpg 320w,
+             elva-fairy-480w.jpg 480w,
+             elva-fairy-800w.jpg 800w"
+     sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+     src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy"> -->
+
         <a href="https://www.mozilla.org/zh-CN/firefox/new/">
-          <img src="images/firefox-logo400.png" 
-                  srcset="images/firefox-logo120.png 120w,
-                  images/firefox-logo400.png 400w" 
-                  sizes="(max-width:480px) 120px,
-                         400px">
+          <img 
+          srcset="images/firefox-logo120.png 120w,
+          images/firefox-logo400.png 400w" 
+          sizes="(max-width: 480px) 120px,
+                 400px"
+          src="images/firefox-logo400.png"  alt="mozilla icon">
         </a>
         <a href="https://www.mozilla.org/">
-          <img src="images/firefox-logo400.png" 
+          <img 
           srcset="images/firefox-logo120.png 120w,
           images/firefox-logo400.png 400w" 
           sizes="(max-width:480px) 120px,
-                 400px">
+                 400px"
+          src="images/firefox-logo400.png"  alt="mozilla icon">
         </a>
         <a href="https://addons.mozilla.org/">
           <img src="images/firefox-addons400.jpg" 
